@@ -1,7 +1,6 @@
 import * as React from 'react';
 import './index.css';
 import { widget } from './trading-view/charting_library/charting_library.min';
-console.log('widget', widget)
 
 function getLanguageFromURL() {
 	const regex = new RegExp('[\\?&]lang=([^&#]*)');
